@@ -30,6 +30,7 @@ body{
         }
       #grid #article h2,p{
         text-align: left;
+        padding-top: 12px;
         }
       @media(max-width:800px){
         #grid{
