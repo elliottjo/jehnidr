@@ -29,7 +29,7 @@ body{
         grid-template-columns: 350px 1fr;
         }
       #grid #article h2,p{
-        text-align: center;
+        text-align: left;
         }
       @media(max-width:800px){
         #grid{
