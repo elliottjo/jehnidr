@@ -8,15 +8,18 @@ body{
         }
       h1{
         text-align: center;
-        border-bottom: 2px solid Gray;
+        border-bottom: 1px solid Gray;
         padding:30px;
         margin:0px 0px 0px;
         }
       #grid ul{
-        border-right: 2px solid Gray;
+        border-style: solid;
+        border-color: Gray;
+        border-width: 0px 1px 0px 0px;
         padding:30px 20px 30px 60px;
         margin:0px 0px 0px;
-        width:200px;        
+        width:200px;
+        vertical-align: baseline;       
         }
       #grid li{
         padding:7px 7px 7px 7px;
@@ -25,7 +28,7 @@ body{
         display: grid;
         grid-template-columns: 350px 1fr;
         }
-      #article h2,p{
+      #grid #article h2,p{
         text-align: center;
         }
       @media(max-width:800px){
