@@ -1,0 +1,37 @@
+body{
+       margin:0px;
+       }
+      a{
+        color:Gray;
+        text-decoration: none;
+        }
+      h1{
+        text-align: center;
+        border-bottom: 2px solid Gray;
+        padding:30px;
+        margin:0px 0px 0px;
+        }
+      #grid ul{
+        border-right: 2px solid Gray;
+        padding:30px 20px 30px 60px;
+        margin:0px 0px 0px;
+        width:200px;        
+        }
+      #grid li{
+        padding:7px 7px 7px 7px;
+        }
+      #grid{
+        display: grid;
+        grid-template-columns: 350px 1fr;
+        }
+      #article h2,p{
+        text-align: center;
+        }
+      @media(max-width:800px){
+        #grid{
+          display: block;
+         }
+        #grid ul{
+          border-right:none;
+         }
+      }
